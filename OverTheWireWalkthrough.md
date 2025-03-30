@@ -36,15 +36,22 @@
 ### Bandit Level 10 → Level 11
 - Used `base64 -d data.txt` to decode the Base64-encoded password.
 
-## Current Level:
+### Bandit Level 11 → Level 12
+- Used `tr 'A-Za-z' 'N-ZA-Mn-za-m'` to decode the ROT13-encoded password.
 
+### Bandit Level 12 → Level 13
+- Created a temporary working directory using `mkdir /tmp/bandit12_temp`.
+- Copied `data.txt` into the temporary directory.
+- Used `xxd -r data.txt > data.bin` to convert the hexdump back to a binary file.
+- Used `file` to check the type of `data.bin`.
+- Repeatedly decompressed the file using `gzip`, `bzip2`, and `tar` until a readable text file was obtained.
+- Used `cat` on the final file to retrieve the password.
 
----
 
 ## Notes:
-- Used `find`, `grep`, `sort`, `uniq`, `strings`, `base64`, and `cat` commands to retrieve passwords.
+- Used `find`, `grep`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `tar`, `gzip`, and `bzip2` commands to retrieve passwords.
 - Used redirections like `2>/dev/null` to suppress errors.
 - Practiced using pipes (`|`) for command chaining.
+- Dealt with file extractions and decompressions systematically.
 
----
 
