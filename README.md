@@ -8,6 +8,6 @@
 ---
 
 ## 🛡️ OverTheWire - Bandit Progress  
-![OverTheWire Progress](https://img.shields.io/badge/Progress-12%2F34-brightgreen?style=for-the-badge&logo=linux)
+![OverTheWire Progress](https://img.shields.io/badge/Bandit-12%2F34-brightgreen)
 
 ✅ **12 / 34 levels completed**  
