@@ -8,7 +8,7 @@
 - ✅ Completed **Level 10**  
 - ✅ Learned about searching files through their attributes
 
-- ### 🗓️ March 30, 2025  
+### 🗓️ March 30, 2025  
 - ✅ Completed **Level 12**  
 - ✅ Learned about compressing decompressing files
 
