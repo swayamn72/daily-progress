@@ -18,6 +18,13 @@
 - ✅ Completed **Level 12**  
 - ✅ Learned about compressing decompressing files
 
+### 🗓️ March 31, 2025  
+- ✅ Solved 41-50 problems (strivers)
+- ✅ Topics Covered: arrays easy complete and some medium arrays
+- ✅ Completed **Level 13**  
+- ✅ Learned about logging in as another user
+- ✅ 1-3 topics from system design
+
 
 
 🔄 **[Back to Main Tracker](README.md)**
