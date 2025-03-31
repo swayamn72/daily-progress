@@ -47,6 +47,13 @@
 - Repeatedly decompressed the file using `gzip`, `bzip2`, and `tar` until a readable text file was obtained.
 - Used `cat` on the final file to retrieve the password.
 
+  ### Bandit Level 13 → Level 14
+- Found an ssh private key `sshkey.private` in the home directory.
+- used `ssh -i sshkey.private bandit14@localhost -p 2220` to login as bandit 14
+- Read the password from `/etc/bandit_pass/bandit14` using cat.
+
+
+
 
 ## Notes:
 - Used `find`, `grep`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `tar`, `gzip`, and `bzip2` commands to retrieve passwords.
