@@ -11,3 +11,8 @@
 ![OverTheWire Progress](https://img.shields.io/badge/Bandit-13%2F34-brightgreen)
 
 ✅ **13 / 34 levels completed**  
+
+## 🛡️ System Design Progress  
+![System Design Progress](https://img.shields.io/badge/Bandit-3%2F70-brightgreen)
+
+✅ **3 / 70 topics completed**  
