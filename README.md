@@ -1,9 +1,9 @@
 # 🚀 My Daily Progress Tracker
 
 ## 📌 A2Z Striver's Sheet Progress  
-![A2Z Progress](https://img.shields.io/badge/Progress-27%2F455-blue?style=for-the-badge&logo=leetcode)
+![A2Z Progress](https://img.shields.io/badge/Progress-40%2F455-blue?style=for-the-badge&logo=leetcode)
 
-✅ **27 / 455 problems solved**    
+✅ **40 / 455 problems solved**    
 
 ---
 
