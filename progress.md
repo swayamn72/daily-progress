@@ -25,6 +25,12 @@
 - ✅ Learned about logging in as another user
 - ✅ 1-3 topics from system design
 
+### 🗓️ April 1, 2025  
+- ✅ Solved 51-59 problems
+- ✅ Topics Covered: Medium Arrays
+- ✅ 4-6 topics from system design 
+
+
 
 
 🔄 **[Back to Main Tracker](README.md)**
