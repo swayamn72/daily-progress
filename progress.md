@@ -31,6 +31,8 @@
 - ✅ 4-6 topics from system design
 
 ### 🗓️ April 3, 2025  
+- ✅ Solved 60-62 problems
+- ✅ Topics Covered: Medium Arrays
 - ✅ Completed **Level 16** (bandit)
 - ✅ learned about piping the password to ports 
 
