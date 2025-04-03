@@ -47,12 +47,21 @@
 - Repeatedly decompressed the file using `gzip`, `bzip2`, and `tar` until a readable text file was obtained.
 - Used `cat` on the final file to retrieve the password.
 
-  ### Bandit Level 13 → Level 14
-- Found an ssh private key `sshkey.private` in the home directory.
-- used `ssh -i sshkey.private bandit14@localhost -p 2220` to login as bandit 14
-- Read the password from `/etc/bandit_pass/bandit14` using cat.
+### Bandit Level 13 → Level 14
+- Found an SSH private key `sshkey.private` in the home directory.
+- Used `ssh -i sshkey.private bandit14@localhost -p 2220` to log in as Bandit14.
+- Read the password from `/etc/bandit_pass/bandit14` using `cat`.
 
+### Bandit Level 14 → Level 15
+- Used `nc localhost 30000` and entered the password to receive the next password.
 
+### Bandit Level 15 → Level 16
+- Used `openssl s_client -connect localhost:30001 -quiet` to establish an SSL connection and retrieved the password.
+
+### Bandit Level 16 → Level 17
+- Found an RSA private key in the home directory.
+- Copied the key and saved it locally with proper permissions (`chmod 600`).
+- Used `ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220` to log in as Bandit17.
 
 
 ## Notes:
@@ -60,5 +69,5 @@
 - Used redirections like `2>/dev/null` to suppress errors.
 - Practiced using pipes (`|`) for command chaining.
 - Dealt with file extractions and decompressions systematically.
-
-
+- Used `nc` and `openssl` for network-based challenges.
+- Managed SSH keys and secure connections.
