@@ -36,6 +36,11 @@
 - ✅ Completed **Level 16** (bandit)
 - ✅ learned about piping the password to ports 
 
+### 🗓️ April 4, 2025  
+- ✅ Solved 63-71 problems
+- ✅ Topics Covered: Binary Search (easy)
+- ✅ 7-9 topics from system design
+
 
 
 
