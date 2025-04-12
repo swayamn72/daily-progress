@@ -41,6 +41,11 @@
 - ✅ Topics Covered: Binary Search (easy)
 - ✅ 7-9 topics from system design
 
+### 🗓️ April 5-11, 2025  
+- ✅ Solved 72-77 problems
+- ✅ Topics Covered: Binary Search (easy)
+- ✅ Completed **Level 21** (bandit)
+
 
 
 
